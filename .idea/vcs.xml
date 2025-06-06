@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../CityBus-vue-admin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Tracker-V2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../city-bus-starter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../maintain-vben-admin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../tg_flutter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../tg_flutter/here_sdk" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../tg_flutter/jpush-flutter-plugin" vcs="Git" />
+  </component>
+</project>
