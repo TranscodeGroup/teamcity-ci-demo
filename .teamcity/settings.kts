@@ -1,4 +1,5 @@
 import jetbrains.buildServer.configs.kotlin.*
+import jetbrains.buildServer.configs.kotlin.buildFeatures.buildCache
 import jetbrains.buildServer.configs.kotlin.buildFeatures.perfmon
 import jetbrains.buildServer.configs.kotlin.triggers.vcs
 
@@ -49,6 +50,13 @@ object Build : BuildType({
 
     features {
         perfmon {
+        }
+        buildCache {
+            name = "cache-test"
+            rules = """
+                .pnpm
+                .pnpm-store
+            """.trimIndent()
         }
     }
 })
