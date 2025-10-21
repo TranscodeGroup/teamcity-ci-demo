@@ -39,6 +39,8 @@ object Build : BuildType({
 
     vcs {
         root(DslContext.settingsRoot)
+
+        checkoutDir = "test1"
     }
 
     steps {
